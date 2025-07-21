@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 28
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -168,12 +168,12 @@ MonoBehaviour:
     height: 1293
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 0
     width: 681
     height: 620
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -273,8 +273,8 @@ MonoBehaviour:
     y: 0
     width: 542
     height: 1293
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -826,9 +826,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.47828615, y: -0.23551308, z: -0.17996357}
+    m_Target: {x: 0.13268404, y: -0.13842657, z: -0.032910638}
     speed: 2
-    m_Value: {x: -0.47828615, y: -0.23551308, z: -0.17996357}
+    m_Value: {x: 0.13268404, y: -0.13842657, z: -0.032910638}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -878,9 +878,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.29772
+    m_Target: 3.5924218
     speed: 2
-    m_Value: 18.29772
+    m_Value: 3.5924218
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -953,26 +953,26 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68bfffff52bfffff3cbfffff26bfffff10bffffffabeffffe4beffffcebeffffb8beffffa2beffff8cbeffff76beffff60beffff4abeffff34beffff1ebeffff08befffff2bdffffdcbdffffc6bdffffb0bdffff9abdffff84bdffff6ebdffff58bdffff42bdffff2cbdffff16bdffff00bdffffeabcffffd4bcffffbebcffffa8bcffff92bcffff7cbcffff66bcffff50bcffff3abcffff24bcffff0ebcfffff8bbffffe2bbffffccbbffffb6bbffffecbaffffd0baffffaebaffff92baffff76baffff54baffff38baffff1cbafffffab9ffffdeb9ffffc2b9ffffa0b9ffff84b9ffff68b9ffff46b9ffff2ab9ffff0eb9ffffecb8ffffd0b8ffffb4b8ffff92b8ffff76b8ffff5ab8ffff38b8ffff1cb8ffff00b8ffffdeb7ffffc2b7ffffa6b7ffff84b7ffff68b7ffff4cb7ffff2ab7ffff0eb7fffff2b6ffffd0b6ffffb4b6ffff98b6ffff
-      m_LastClickedID: -16536
-      m_ExpandedIDs: 00fbffffacb90000e6b90000
+      m_SelectedIDs: 68b90000
+      m_LastClickedID: 47464
+      m_ExpandedIDs: 00fbffff68b90000bab90000eab90000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Bullet 0 (2)
+        m_OriginalName: Bullet 0 (2)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15960
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1027,7 +1027,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Undead Survivor/Animations/Enemy
+    - Assets/Undead Survivor/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1037,16 +1037,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Undead Survivor/Animations/Enemy
+  - Assets/Undead Survivor/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity Project\Undead Survivor
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5abc0000
-    m_LastClickedID: 48218
-    m_ExpandedIDs: 0000000014bb000016bb000018bb000000ca9a3b
+    m_SelectedIDs: 84bc0000
+    m_LastClickedID: 48260
+    m_ExpandedIDs: 0000000032bb000034bb000036bb000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000014bb000016bb000018bb0000
+    m_ExpandedIDs: 0000000032bb000034bb000036bb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1104,7 +1104,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000086cc000040cc000002b50000deb20000dcb40000
+    m_ExpandedInstanceIDs: c623000086cc000040cc000002b50000deb20000dcb4000078ba0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1378,7 +1378,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1389,18 +1389,18 @@ MonoBehaviour:
       y: 21
       width: 1336
       height: 1246
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 668, y: 623}
+    m_Scale: {x: 1.1255087, y: 1.1255087}
+    m_Translation: {x: 653.37274, y: 611.54956}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -668
-      y: -623
-      width: 1336
-      height: 1246
+      x: -580.5133
+      y: -543.35394
+      width: 1187.0188
+      height: 1107.055
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1336, y: 1267}
